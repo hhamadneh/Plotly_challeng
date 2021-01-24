@@ -91,15 +91,15 @@ function DrawGraph(data,otu_id)
       ],
       labels: ["0-1", "1-2", "2-3", "3-4", "4-5", "5-6", "6-7","7-8","8-9"],
       threshold: {
-        line: { color: "red", width: 4 },
-        thickness: 0.75,
-        value: 490
+        line: { color: "blue", width: 7 },
+        thickness: 2,
+        value: 7
       }
     }
   }]
 
   layoutGuage = {
-    width: 600, height: 450, margin: { t: 0, b: 0 }
+    width: 700, height: 500, margin: { t: 0, b: 0 }
   }
 
   Plotly.newPlot("bar",graphDataBar);
